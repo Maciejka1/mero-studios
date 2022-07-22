@@ -14,29 +14,24 @@ function Nav(){
     this variable as undefined because it would break styling when clicking on pc*/
     return (
       <div>
-            <div className="flex items-center md:hidden z-30 fixed m-2 top-0 left-0">
-                <img src={logo} alt="logo" className="h-14"/>
-                <p className="text-lg">Mero Studios</p>
-            </div>
           <div onClick={() => setNavControl('0')}>
               <div className="open-menu fixed m-5 text-4xl top-0 right-0 md:hidden z-20" >
                   <FaBars/>
               </div>
           </div>
           <nav className="flex flex-col right-[-100%] items-center justify-center w-screen h-screen bg-white fixed md:justify-between md:w-[1224px] md:h-12 md:right-0 md:left-0 md:flex-row md:rounded-full z-20 " style={{right: navControl}}> 
-
-          <div className="h-full md:flex items-center hidden">
-              <img src={logo} alt="logo" className="m-0 h-full rounded-none"/>
-              <p className="ml-2 text-lg">Maciejka</p>
+          <div className="md:h-full md:flex items-center justify-center">
+            <img src={logo} alt="logo" className="h-20 mt-8 md:m-0 md:h-full "/>
+            <h1 className="md:ml-2 text-lg">Mero Studios</h1>
           </div>
 
             <ul className="flex flex-col justify-items-center items-center mb-10 text-gray-700 gap-3 font-semibold text-4xl md:text-2xl md:mb-0 md:flex-row">
 
                 <Link to="/" onClick={resizeNavOnClick}>
-                    <li className='transition-all hover:text-3xl'>Home</li>
+                    <li className=''>Home</li>
                 </Link>
                 <Link to="/contact" onClick={resizeNavOnClick}>
-                    <li className='transition-all hover:text-3xl'>Get in touch</li>
+                    <li className=''>Get in touch</li>
                 </Link>
             </ul>
 
