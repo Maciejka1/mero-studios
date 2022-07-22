@@ -28,26 +28,26 @@ function Nav(){
             <ul className="flex flex-col justify-items-center items-center mb-10 text-gray-700 gap-3 font-semibold text-4xl md:text-2xl md:mb-0 md:flex-row">
 
                 <Link to="/" onClick={resizeNavOnClick}>
-                    <li className=''>Home</li>
+                    <li>Home</li>
                 </Link>
                 <Link to="/contact" onClick={resizeNavOnClick}>
-                    <li className=''>Get in touch</li>
+                    <li>Get in touch</li>
                 </Link>
             </ul>
 
               <ul className="flex flex-col justify-items-center items-center mb-10 text-black gap-3 font-semibold text-xl md:mb-0 md:flex-row md:text-black">
                   <a href="https://www.youtube.com/channel/UCebw-8zzdGSw8jdDY-8mnWA" target="blank" className="tiktok">
-                      <li className='text-4xl md:text-3xl transition-all hover:text-4xl'>
+                      <li className='text-4xl '>
                           <FaTiktok/>
                       </li>
                   </a>
                   <a href="https://discord.com/users/772177682321375262" target="blank" className="text-[#7289da]">
-                      <li className='text-4xl md:text-3xl transition-all hover:text-4xl'>
+                      <li className='text-4xl'>
                           <FaDiscord/>
                       </li>
                   </a>
                   <a href="https://github.com/maciejka1" target="blank">
-                      <li className='text-4xl md:text-3xl transition-all hover:text-4xl'>
+                      <li className='text-4xl'>
                           <FaGithub/>
                       </li>
                   </a>
