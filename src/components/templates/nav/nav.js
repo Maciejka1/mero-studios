@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.module.css'
 import logo from '../../images/logo.webp'
-import {FaGithub, FaDiscord, FaBars, FaTiktok} from 'react-icons/fa'
+import {FaGithub, FaDiscord, FaBars, FaTiktok, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 function Nav(){
     const [navControl, setNavControl] = React.useState()
@@ -58,7 +58,7 @@ function Nav(){
                   </a>
               </ul>
               <div className="text-6xl md:hidden" onClick={() => setNavControl('-100%')}>
-                  <i className="fas fa-times"></i>
+                  <FaTimes/>
               </div>
           </nav>
       </div>
