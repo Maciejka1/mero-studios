@@ -9,3 +9,6 @@ a{
 a:hover{
     letter-spacing: 3px;
 }
+.container{
+  @apply pt-20 max-w-[1424px] mx-auto min-h-[95vh]
+}

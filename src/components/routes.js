@@ -1,5 +1,5 @@
 
-import Main from './pages/main'
+import Main from './pages/main/main'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import {AnimatePresence} from 'framer-motion'
 

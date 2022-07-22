@@ -24,7 +24,7 @@ function Nav(){
             <img src={logo} alt="logo" className="h-20 mt-8 md:m-0 md:h-full "/>
             <h1 className="md:ml-2 text-lg">Mero Studios</h1>
           </div>
-            <ul className="flex flex-col justify-items-center items-center mb-10 text-gray-700 gap-3 font-semibold text-4xl md:text-2xl md:mb-0 md:flex-row">
+            <ul className="flex flex-col justify-items-center items-center mb-10 text-gray-700 gap-3 font-semibold text-4xl md:text-2xl md:mb-0 md:flex-row ">
                 <Link to="/" onClick={resizeNavOnClick}>
                     <li>Home</li>
                 </Link>
