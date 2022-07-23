@@ -9,8 +9,9 @@ export default function Main() {
     exit={{opacity: 0}}
     className="container" 
     >
-      Main
-      <a href="https://example.com">test</a>
+      <div className='flex justify-center items-center h-[70vh]'>
+        <h1><span className=''>Amazing</span> games done right.</h1>
+      </div>
     </motion.div>
   )
 }
