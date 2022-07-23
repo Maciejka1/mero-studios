@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.module.css'
 import logo from '../../images/logo.webp'
-import {FaGithub, FaDiscord, FaBars, FaTiktok, FaTimes} from 'react-icons/fa'
+import {FaYoutube, FaDiscord, FaBars, FaTiktok, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 function Nav(){
     const [navControl, setNavControl] = React.useState()
@@ -38,14 +38,14 @@ function Nav(){
                           <FaTiktok/>
                       </li>
                   </a>
-                  <a href="https://discord.gg/QnxXUCqeWz" target="blank" className="text-[#7289da]">
+                  <a href="https://discord.gg/QnxXUCqeWz" target="blank" >
                       <li className='text-4xl'>
                           <FaDiscord/>
                       </li>
                   </a>
-                  <a href="https://github.com/maciejka1" target="blank">
+                  <a href="https://www.youtube.com/channel/UCMcQuc_vdqUpssXgfN6Lwhg" target="blank" >
                       <li className='text-4xl'>
-                          <FaGithub/>
+                          <FaYoutube/>
                       </li>
                   </a>
               </ul>
