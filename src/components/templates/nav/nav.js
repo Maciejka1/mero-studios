@@ -38,7 +38,7 @@ function Nav(){
                           <FaTiktok/>
                       </li>
                   </a>
-                  <a href="https://discord.com/users/772177682321375262" target="blank" className="text-[#7289da]">
+                  <a href="https://discord.gg/QnxXUCqeWz" target="blank" className="text-[#7289da]">
                       <li className='text-4xl'>
                           <FaDiscord/>
                       </li>

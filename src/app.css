@@ -3,12 +3,11 @@ a,p,h1,h2{
   font-family: 'Poppins', sans-serif;
 }
 a{
-    text-decoration:  underline;
     transition: all 200ms ease;
 }
 a:hover{
     letter-spacing: 3px;
 }
 .container{
-  @apply pt-20 max-w-[1424px] mx-auto min-h-[95vh]
+  @apply pt-20 max-w-[1224px] mx-auto min-h-[95vh]
 }

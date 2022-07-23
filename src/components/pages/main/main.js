@@ -7,7 +7,7 @@ export default function Main() {
     initial={{opacity: 0}}
     animate={{opacity: 1, transition: {duration: 2}}}
     exit={{opacity: 0}}
-    className="container"
+    className="container" 
     >
       Main
       <a href="https://example.com">test</a>
