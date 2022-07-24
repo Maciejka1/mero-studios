@@ -34,7 +34,7 @@ function Nav(){
             </ul>
               <ul className="flex flex-col justify-items-center items-center mb-10 text-black gap-3 font-semibold text-xl md:mb-0 md:flex-row md:text-black">
                   <a href="https://www.tiktok.com/@merostudios" target="blank">
-                      <li className='text-4xl '>
+                      <li className='text-3xl '>
                           <FaTiktok/>
                       </li>
                   </a>

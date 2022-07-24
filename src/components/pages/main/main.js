@@ -9,8 +9,8 @@ export default function Main() {
     exit={{opacity: 0}}
     className="container" 
     >
-      <div className='flex justify-center items-center h-[70vh]'>
-        <h1><span className=''>Amazing</span> games done right.</h1>
+      <div className='flex justify-center items-center h-[70vh] text-6xl font-bold'>
+        <h1><span className='bg-violet-600 p-2 text-white'>Amazing</span> games done right.</h1>
       </div>
     </motion.div>
   )
