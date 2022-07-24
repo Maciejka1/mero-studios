@@ -39,13 +39,13 @@ function Nav(){
                       </li>
                   </a>
                   <a href="https://discord.gg/QnxXUCqeWz" target="blank" >
-                      <li className='text-4xl '>
+                      <li className='text-4xl text-indigo-600'>
                           <FaDiscord/>
                       </li>
                   </a>
                   <a href="https://www.youtube.com/channel/UCMcQuc_vdqUpssXgfN6Lwhg" target="blank" >
                       <li className='text-4xl '>
-                          <FaYoutube/>
+                          <FaYoutube className='text-red-500'/>
                       </li>
                   </a>
               </ul>

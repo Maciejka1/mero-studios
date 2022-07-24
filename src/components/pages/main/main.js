@@ -10,7 +10,7 @@ export default function Main() {
     className="container" 
     >
       <div className='flex justify-center items-center h-[70vh] text-6xl font-bold'>
-        <h1><span className='bg-violet-600 p-2 text-white'>Amazing</span> games done right.</h1>
+        <h1><span className='bg-violet-400 p-2'>Amazing</span> games done right.</h1>
       </div>
     </motion.div>
   )
