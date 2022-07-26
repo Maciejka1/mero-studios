@@ -11,7 +11,7 @@ a:hover{
     letter-spacing: 3px;
 }
 .container{
-  @apply pt-20 px-2 max-w-[1224px] mx-auto min-h-[95vh]
+  @apply pt-20 px-2 max-w-[1224px] mx-auto min-h-[100vh]
 }
 .link{
   text-decoration: underline;
