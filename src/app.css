@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 a,p,h1,h2{
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 a{
   transition: all 200ms;
@@ -18,5 +20,6 @@ a:hover{
   @apply rounded-full cursor-pointer p-2 font-bold
 }
 #root{
-  background: black;
+  background: #0f1015;
 }
+
