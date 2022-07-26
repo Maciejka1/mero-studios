@@ -20,8 +20,8 @@ export default function Main() {
                 Lorem ipsum dolor sit amet?
               </h2> */}
               <div className='flex gap-2'>
-                <div className='btn bg-violet-400'>See our portfolio</div>
-                <div className='btn border-violet-400 border-[2px]'>Get in touch</div>
+                <a className='btn bg-violet-400 hover:bg-violet-500 transition-all'>See our portfolio</a>
+                <a className='btn border-violet-400 border-[2px] hover:bg-violet-500 hover:border-violet-500 transition-all'>Get in touch</a>
               </div>
             </div>
           </div>
