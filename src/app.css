@@ -14,3 +14,9 @@ a:hover{
 .link{
   text-decoration: underline;
 }
+.btn{
+  @apply rounded-full cursor-pointer p-2 font-bold
+}
+#root{
+  background: black;
+}
