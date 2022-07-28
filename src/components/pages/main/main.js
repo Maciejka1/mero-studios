@@ -1,18 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './Main.module.css'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import Game from "../../templates/game/game"
 import landingImage from "../../images/landingImage.png"
 export default function Main() {
-  const [slide, setSlide] = useState(0)
   return (
-    <motion.div
+    <motion.main
     initial={{opacity: 0}}
     animate={{opacity: 1, transition: {duration: 2}}}
     exit={{opacity: 0}}
     className="text-xl text-white">
-      <div className={styles.landing + " bg-cover"}>
+      <section className={styles.landing + " bg-cover"}>
         <div className='container'>
           <div className='flex flex-wrap justify-center items-center h-[70vh] gap-5 '>
             <div>
@@ -35,10 +34,10 @@ export default function Main() {
             </motion.div>
           </div>
         </div>
-      </div>
-      <div>
+      </section>
+      <section className=''>
         <Game />
-      </div>
-    </motion.div>
+      </section>
+    </motion.main>
   )
 }
