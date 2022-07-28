@@ -13,9 +13,9 @@ function Nav(){
     resizeNavOnClick as function which closes nav. If user is on screen that has 769px or more it declares
     this variable as undefined because it would break styling when clicking on pc*/
     return (
-      <div>
+      <div className='text-white'>
           <div onClick={() => setNavControl('0')}>
-              <div className="fixed m-5 text-4xl top-0 right-0 md:hidden z-20 " >
+              <div className="fixed m-5 text-4xl top-0 right-0 md:hidden z-20" >
                   <FaBars/>
               </div>
           </div>
