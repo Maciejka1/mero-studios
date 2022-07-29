@@ -6,7 +6,7 @@ import Game from "../../templates/game/game"
 import landingImage from "../../images/landingImage.png"
 export default function Main() {
   return (
-    <motion.main
+    <motion.main 
     initial={{opacity: 0}}
     animate={{opacity: 1, transition: {duration: 2}}}
     exit={{opacity: 0}}
@@ -35,8 +35,9 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className=''>
-        <Game />
+      <section className='' id='portfolio'>
+        <Game styleRight={false} />
+        <Game styleRight={true} />
       </section>
     </motion.main>
   )
