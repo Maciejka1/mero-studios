@@ -13,13 +13,13 @@ function Nav(){
     resizeNavOnClick as function which closes nav. If user is on screen that has 769px or more it declares
     this variable as undefined because it would break styling when clicking on pc*/
     return (
-      <div className='text-white'>
+      <div className='text-white z-10'>
           <div onClick={() => setNavControl('0')}>
               <div className="fixed m-5 text-4xl top-0 right-0 md:hidden z-20" >
                   <FaBars/>
               </div>
           </div>
-          <nav className={"flex flex-col right-[-100%] items-center justify-center w-screen h-screen bg-[#0f1015] fixed md:justify-between md:w-[1224px] md:h-12 md:right-0 md:left-0 md:flex-row md:rounded-full z-20 pr-2 " + styles.nav} style={{right: navControl}}> 
+          <nav className={" z-20 flex flex-col right-[-100%] items-center justify-center w-screen h-screen bg-[#0f1015] fixed md:justify-between md:w-[1224px] md:h-12 md:right-0 md:left-0 md:flex-row md:rounded-full pr-2 " + styles.nav} style={{right: navControl}}> 
           <div className="md:h-full md:flex-row flex-col flex items-center justify-center">
             <img src={logo} alt="logo" className="h-20 mt-8 md:m-0 md:h-full rounded-md"/>
             <h1 className="md:ml-2 text-lg">Mero Studios</h1>

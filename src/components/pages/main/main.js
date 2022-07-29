@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import Game from "../../templates/game/game"
 import landingImage from "../../images/landingImage.png"
+import HordeShooter from '../../images/videos/HordeShooter.mp4'
 export default function Main() {
   return (
     <motion.main 
@@ -30,15 +31,26 @@ export default function Main() {
               animate={{x: 0, opacity: 1, transition: {duration: 3}}}
               exit={{x: 100, opacity: 0}}
             >
-              <img src={landingImage} alt="never found game" className='rounded-xl hover:rotate-1 transition-all'/>
+              <img src={landingImage} alt="never found game" className='rounded-xl hover:rotate-1 transition-all '/>
             </motion.div>
           </div>
         </div>
       </section>
       <section className='' id='portfolio'>
-        <Game styleRight={false} />
+        <Game
+         styleRight={false}
+         title="Guns N' Speed"
+         desc="​Guns N' Speed is fast paced shooter with hordes of enemies and explosives barrels. Last as long as you can! Enemies can kill you with one hit!"
+         download="https://merostudio.itch.io/guns-n-speed"
+         video={HordeShooter}
+        />
         <Game styleRight={true} />
       </section>
+      <div className='container'>
+        <section>
+          <h1>About us</h1>
+        </section>
+      </div>
     </motion.main>
   )
 }
