@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+#root{
+  background: #0f1015;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -21,7 +24,8 @@ a:hover{
 .btn{
   @apply rounded-full cursor-pointer p-2 font-bold
 }
-#root{
-  background: #0f1015;
+.header{
+  @apply text-5xl font-bold
 }
+
 
