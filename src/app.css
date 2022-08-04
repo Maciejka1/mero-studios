@@ -27,5 +27,6 @@ a:hover{
 .header{
   @apply text-5xl font-bold
 }
-
-
+.bgviolet{
+  @apply bg-violet-400 p-2 hover:bg-violet-500 transition-all font-bold
+}

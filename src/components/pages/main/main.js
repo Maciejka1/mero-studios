@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Game from "../../templates/game/game"
 import landingImage from "../../images/landingImage.png"
 import HordeShooter from '../../images/videos/HordeShooter.mp4'
+import Faq from './faq'
 export default function Main() {
   return (
     <motion.main 
@@ -17,7 +18,7 @@ export default function Main() {
           <div className='flex flex-wrap justify-center items-center h-[70vh] gap-5'>
             <div>
               <h1 className='text-5xl leading-[80px] md:text-6xl md:leading-[80px] font-bold'>
-                <span className='bg-violet-400 p-2 hover:bg-violet-500  transition-all'>Amazing</span> games <br/> done right.
+                <span className='bgviolet'>Amazing</span> games <br/> done right.
               </h1>
               <div className='flex flex-wrap gap-2 mt-5'>
                 <a href="#portfolio" className='btn bg-violet-400 hover:bg-violet-500 transition-all'>See our portfolio</a>
@@ -46,9 +47,22 @@ export default function Main() {
         />
       </section>
       <div className='container'>
-        <section>
+      <section>
           <h1 className='header'>About us</h1>
-          <p></p>
+          mero to musi napisac
+        </section>
+        <section>
+          <h1 className='header'>FAQ</h1>
+          <div>
+            <Faq 
+            title=""
+            content=""
+            />
+            <Faq 
+            title=""
+            content=""
+            />
+          </div>
         </section>
       </div>
     </motion.main>
