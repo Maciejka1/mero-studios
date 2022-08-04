@@ -13,10 +13,10 @@ export default function Main() {
     exit={{opacity: 0}}
     className="text-xl text-white">
       <section className={styles.landing + " bg-cover"}>
-        <div className='container'>
-          <div className='flex flex-wrap justify-center items-center h-[70vh] gap-5 '>
+        <div className='container mb-24 md:mb-0'>
+          <div className='flex flex-wrap justify-center items-center h-[70vh] gap-5'>
             <div>
-              <h1 className='text-5xl leading-[80px] md:text-6xl md:leading-[80px] font-bold '>
+              <h1 className='text-5xl leading-[80px] md:text-6xl md:leading-[80px] font-bold'>
                 <span className='bg-violet-400 p-2 hover:bg-violet-500  transition-all'>Amazing</span> games <br/> done right.
               </h1>
               <div className='flex flex-wrap gap-2 mt-5'>
@@ -31,12 +31,12 @@ export default function Main() {
               animate={{x: 0, opacity: 1, transition: {duration: 3}}}
               exit={{x: 100, opacity: 0}}
             >
-              <img src={landingImage} alt="never found game" className='rounded-xl hover:rotate-1 transition-all '/>
+              <img src={landingImage} alt="never found game" className='rounded-xl hover:rotate-1 transition-all'/>
             </motion.div>
           </div>
         </div>
       </section>
-      <section className='' id='portfolio'>
+      <section id='portfolio'>
         <Game
          styleRight={false}
          title="Guns N' Speed"
@@ -44,11 +44,11 @@ export default function Main() {
          download="https://merostudio.itch.io/guns-n-speed"
          video={HordeShooter}
         />
-        <Game styleRight={true} />
       </section>
       <div className='container'>
         <section>
-          <h1>About us</h1>
+          <h1 className='header'>About us</h1>
+          <p></p>
         </section>
       </div>
     </motion.main>

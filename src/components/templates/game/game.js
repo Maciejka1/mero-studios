@@ -4,7 +4,7 @@ export default function Game(props) {
     <div className="h-[100vh] overflow-hidden flex flex-col ">
     <div className={`h-[100%] lg:w-[50%] lg:absolute flex flex-col bg-[#0f1015] justify-center items-center ${props.styleRight && "lg:right-0"}`} >
       <div className='grid gap-4 p-2'>
-        <h1 className='text-5xl font-bold'>{props.title}</h1>
+        <h1 className='header'>{props.title}</h1>
         <p className='max-w-xl'>{props.desc}</p>
         <div className='flex flex-wrap gap-2'>
           <a href={props.download} target="blank" className='btn bg-violet-400 hover:bg-violet-500 transition-all'>
