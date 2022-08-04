@@ -55,11 +55,11 @@ export default function Main() {
           <h1 className='header'>FAQ</h1>
           <div>
             <Faq 
-            title=""
+            title="In which do technologies do we make our games?"
             content=""
             />
             <Faq 
-            title=""
+            title="its non functional yet"
             content=""
             />
           </div>
