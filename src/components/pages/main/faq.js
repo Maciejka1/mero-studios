@@ -8,8 +8,10 @@ export default function Faq(props) {
         <p className='font-bold'>{props.title}</p>
         <FaCaretDown/>
       </div>
-      <div style={{display: visible ? "flex" : "none"}} className="transition-all">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quod magnam nobis eos commodi voluptate vitae voluptatem nam iure facilis. Nulla suscipit possimus, consequuntur blanditiis accusantium voluptates reprehenderit nemo deleniti?</p>
+      <div style={{display: visible ? "flex" : "none"}}>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quod magnam nobis eos commodi voluptate vitae voluptatem nam iure facilis. Nulla suscipit possimus, consequuntur blanditiis accusantium voluptates reprehenderit nemo deleniti?
+          {/* {props.desc} */}
+        </p>
       </div>
     </div>
   )

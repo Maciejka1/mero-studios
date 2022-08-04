@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Game from "../../templates/game/game"
 import landingImage from "../../images/landingImage.png"
 import HordeShooter from '../../images/videos/HordeShooter.mp4'
+import AboutImage from '../../images/aboutImage.png'
 import Faq from './faq'
 export default function Main() {
   return (
@@ -46,12 +47,17 @@ export default function Main() {
          video={HordeShooter}
         />
       </section>
-      <div className='container'>
-      <section>
-          <h1 className='header'>About us</h1>
-          mero to musi napisac
+      <div className='container '>
+        <section className='mb-20'>
+            <h1 className='header'>About us</h1>
+            <div className='flex'>
+              <p className='max-w-3xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit deserunt impedit at est tenetur, dolore vero neque molestias, labore similique delectus, odit mollitia sequi totam. Unde nisi non est recusandae dolorum accusantium, natus dolor expedita facere doloribus iure labore, aut voluptas tempora accusamus quia sit sequi repellendus commodi nostrum eos earum repellat aspernatur? Atque!</p>
+              <div>
+                <img src={AboutImage} alt=""/>
+              </div>
+            </div>
         </section>
-        <section>
+        <section className='mb-20'>
           <h1 className='header'>FAQ</h1>
           <div>
             <Faq 
