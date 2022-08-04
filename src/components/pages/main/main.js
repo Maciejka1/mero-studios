@@ -59,7 +59,7 @@ export default function Main() {
             content=""
             />
             <Faq 
-            title="its non functional yet"
+            title="its fully functional! add animations"
             content=""
             />
           </div>
