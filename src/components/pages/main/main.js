@@ -31,7 +31,7 @@ export default function Main() {
             <motion.div
               initial={{x: 100, opacity: 0}}
               animate={{x: 0, opacity: 1, transition: {duration: 3}}}
-              exit={{x: 100, opacity: 0}}
+              exit={{x: 100, opacity: 0, transition: {duration: 1}}}
             >
               <img src={landingImage} alt="never found game" className='rounded-xl hover:rotate-1 transition-all'/>
             </motion.div>
