@@ -1,3 +1,4 @@
+import { About } from './about';
 import React from 'react'
 import styles from './Main.module.css'
 import { motion } from 'framer-motion'
@@ -5,11 +6,10 @@ import { Link } from 'react-router-dom'
 import Game from "../../templates/game/game"
 import landingImage from "../../images/landingImage.png"
 import HordeShooter from '../../images/videos/HordeShooter.mp4'
-import AboutImage from '../../images/aboutImage.png'
 import Faq from './faq'
 export default function Main() {
   return (
-    <motion.main 
+    <motion.main
     initial={{opacity: 0}}
     animate={{opacity: 1, transition: {duration: 2}}}
     exit={{opacity: 0}}
@@ -40,33 +40,29 @@ export default function Main() {
       </section>
       <section id='portfolio'>
         <Game
-         styleRight={false}
-         title="Guns N' Speed"
-         desc="​Guns N' Speed is fast paced shooter with hordes of enemies and explosives barrels. Last as long as you can! Enemies can kill you with one hit!"
-         download="https://merostudio.itch.io/guns-n-speed"
-         video={HordeShooter}
+        styleRight={false}
+        title="Guns N' Speed"
+        desc="​Guns N' Speed is fast paced shooter with hordes of enemies and explosives barrels. Last as long as you can!"
+        download="https://merostudio.itch.io/guns-n-speed"
+        video={HordeShooter}
         />
       </section>
       <div className='container '>
-        <section className='mb-20'>
-            <h1 className='header'>About us</h1>
-            <div className='flex'>
-              <p className='max-w-3xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit deserunt impedit at est tenetur, dolore vero neque molestias, labore similique delectus, odit mollitia sequi totam. Unde nisi non est recusandae dolorum accusantium, natus dolor expedita facere doloribus iure labore, aut voluptas tempora accusamus quia sit sequi repellendus commodi nostrum eos earum repellat aspernatur? Atque!</p>
-              <div>
-                <img src={AboutImage} alt=""/>
-              </div>
-            </div>
-        </section>
+        <About/>
         <section className='mb-20'>
           <h1 className='header'>FAQ</h1>
           <div>
-            <Faq 
-            title="In which do technologies do we make our games?"
-            content=""
+            <Faq
+            title="Are you hiring?"
+            content="We do not hire anyone. We are group of developers who are making games out of passion."
             />
-            <Faq 
-            title="its fully functional! add animations"
-            content=""
+            <Faq
+            title="Are you looking for anyone to write code?"
+            content="Yes, if you know how to code in C# and you want to work with real games, please message Mero__#8753 on Discord."
+            />
+            <Faq
+            title="Where can I see your code?"
+            content="Code will be available on GitHub soon."
             />
           </div>
         </section>

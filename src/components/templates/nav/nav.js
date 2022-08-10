@@ -8,10 +8,6 @@ function Nav(){
     const windowWidth = window.screen.availWidth
     let resizeNavOnClick
     windowWidth <= 768 ? resizeNavOnClick = () => setNavControl('-100%') : resizeNavOnClick = undefined
-    /*Without this, nav when clicking on link would stay in right: 0 style which is "showing" nav.
-    This code checks if user is under screen resolution that triggers mobile look. If it is it declares
-    resizeNavOnClick as function which closes nav. If user is on screen that has 769px or more it declares
-    this variable as undefined because it would break styling when clicking on pc*/
     return (
       <div className='text-white z-10'>
           <div onClick={() => setNavControl('0')}>
@@ -36,7 +32,7 @@ function Nav(){
                   <a href="https://www.tiktok.com/@merostudios" target="blank">
                       <li className='text-3xl '>
                           <FaTiktok/>
-                      </li>
+                       </li>
                   </a>
                   <a href="https://discord.gg/QnxXUCqeWz" target="blank" >
                       <li className='text-4xl text-indigo-600'>

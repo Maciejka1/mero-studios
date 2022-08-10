@@ -9,8 +9,8 @@ export default function Faq(props) {
         <FaCaretDown/>
       </div>
       <div style={{display: visible ? "flex" : "none"}}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quod magnam nobis eos commodi voluptate vitae voluptatem nam iure facilis. Nulla suscipit possimus, consequuntur blanditiis accusantium voluptates reprehenderit nemo deleniti?
-          {/* {props.desc} */}
+        <p>
+          {props.content}
         </p>
       </div>
     </div>
